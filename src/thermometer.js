@@ -54,7 +54,7 @@ class Thermometer {
    * @description - sets the celsius temperature
    */
   set celsius(tempCelsius) {
-    this.celsius = tempCelsius;
+    this.#celsius = tempCelsius;
   }
 
   /*  -------- kelvin -------------------*/
@@ -116,7 +116,6 @@ class Thermometer {
   toString(unit) {
     if (unit === 'K') return `${this.kelvin}K`;
     if (unit === 'F') return `${this.fahrenheit}°F`;
-
     return `${this.celsius}°C`;
   }
 }

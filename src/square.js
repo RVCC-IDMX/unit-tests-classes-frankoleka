@@ -40,6 +40,7 @@
 // import the polygon class using the CommonJS require() function
 // https://nodejs.org/api/modules.html#modules-commonjs-modules
 // const { Polygon } = require('./polygon');
+const { Rectangle } = require('./rectangle');
 
 /**
  * Square class

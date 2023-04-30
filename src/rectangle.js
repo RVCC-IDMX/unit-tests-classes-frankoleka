@@ -38,8 +38,7 @@
 /* --------------Important Step Below ------------ */
 // import the polygon class using the CommonJS require() function
 // https://nodejs.org/api/modules.html#modules-commonjs-modules
-// const { Polygon } = require('./polygon');
-
+const { Polygon } = require('./polygon');
 /**
  * rectangle class
  * @class rectangle class extends Polygon
